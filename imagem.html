@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+
+<head>
+	<title> OI </title>
+
+		<script type="text/javascript">
+			var n = 0;
+
+		function trocar (){
+				while(n < 100) {	
+			setInterval(img01, 3000);
+			setInterval(img02, 6000);
+			n++;
+		}
+		}
+		function img01 (){
+    		document.getElementById("trocarimg").src="b.png";
+			}
+
+
+		function img02 (){
+    		document.getElementById("trocarimg").src="a.png";
+			}
+
+</script>
+</head>
+<body onload="trocar()">
+
+<img src="a.png" id="trocarimg">
+
+</body>
+</html>
+
